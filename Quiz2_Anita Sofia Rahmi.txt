@@ -1,0 +1,97 @@
+Git adalah singkatan dari Group Inclusive Tour. Git merupakan version control system yang gratis dan juga open source. 
+Git dapat memudahkan seseorang dalam melakukan kolaborasi dengan tim lain khususnya dalam pekerjaan di bidang development software.
+Git merupakan teknik untuk mengelola sebuah proyek berupa kode program baik untuk proyek berukuran besar maupun proyek berukuran kecil.
+Terdapat 2 sistem git, yaitu centralized dan distributed:
+1. Git centralized berkerja hanya dengan menggunakan satu server yang berfungsi untuk menyimpan data dari project.
+2. Git distributed bekerja dengan menyimpan data project di lokal dan juga di server.
+
+Fitur-fitur Git
+Git memberikan kemudahan sebagai programmer ataupun developer. 
+Git memiliki peran yang cukup penting. 
+Berikut adalah hal yang perlu diketahui mengenai apa saja hal yang dapat dilakukan Git
+1. Version Control, Git menyimpan setiap perubahan yang diubah pada source code, sehingga memungkinkan pengguna untuk memantau dan mengelola code version yang berbeda.
+2. Git Branch, digunakan ketika developer akan menambahkan fitur baru atau memperbaiki bug.
+Fungsi utama dari branch ialah agar pada saat penambahan fitur baru tidak mengganggu source code utama.
+3. Merging, Git memungkinkan pengguna yang telah selesai mendevelop code dan sudah melakukan testing pada branch baru
+4. Staging area, Git memiliki staging area, di mana pengguna dapat memilih perubahan mana yang akan di-commit ke repository.
+5. Git Rebase, Git rebase digunakan untuk menggabungkan atau menggeser commit base.
+6. Hooks, yaitu script yang dijalankan secara otomatis saat terjadi peristiwa tertentu di dalam Git, seperti commit atau push.
+7. GUI tools, seperti GitKraken dan Sourcetree, untuk memudahkan penggunaan Git bagi pengguna yang kurang terbiasa dengan command line.
+
+Keunggulan dan kelemahan Git
+- Kelebihan
+○ Dapat mengelola versi kode sumber dengan mudah dan efisien.
+○ Dapat melakukan branching dan merging dengan mudah dan aman.
+○ Dapat melacak perubahan dan siapa yang membuat perubahan pada source code.
+○ Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar.
+
+- Kelemahan
+○ Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman.
+○ Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging.
+○ Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video.
+
+Git terdiri atas dua bagian, yaitu:
+1. Database
+Pada git terdapat database atau folder tersembunyi yang 
+digunakan untuk menyimpan history project.
+2. Set of Tools
+Pada git terdapat seperangkat alat (tool) untuk berinteraksi 
+dengan database yang ada. Contoh tool yang dapat digunakan 
+adalah git add dan git commit.
+
+Bagaimana Git dapat membantu?
+- Membantu menelusuri perubahan (change) pada kode.
+- Memperbaiki bug lebih cepat.
+- Kemudahan membagikan kode.
+- Menyederhanakan penambahan fitur baru atau perubahan kode.
+- More eyes = better code. Membantu melihat dan mereview kode yang benar dan lebih efektif.
+- Berkolaborasi dengan orang lain.
+
+
+Gitlab
+Gitlab merupakan salah satu layanan yang menyediakan layanan akses remote ke Git repositories. Gitlab juga dapat meng-hosting project akan tetapi bersifat static.
+Untuk saat ini gitlab sudah memiliki 4 versi, yaitu:
+1. Gitlab Enterprise Edition
+2. Gitlab.com
+3. Gitlab Community edition (Gitlab CE)
+4. Gitlab CI
+
+Keunggulan Gitlab
+●  Pemrosesan CI/CD yang mudah digunakan
+●  Tingkat keamanan yang tinggi
+●  Fitur kolaborasi yang lebih unggul
+
+Kekurangan Gitlab
+●  Susah untuk dipelajari pemula
+●  Konfigurasi yang rumit
+●  Tidak gratis sepenuhnya
+
+Github
+Github merupakan salah satu layanan hosting git repository. 
+Github juga memungkinkan para developer untuk mengelola source code-nya dengan version control system milik github atau lebih mudahnya github merupakan manajemen project, 
+sistem versioning code, sekaligus platform jejaringan sosial bagi para developer seluruh dunia.
+Github memiliki 3 fitur penting yaitu forking, pull request dan merging.
+1. Forking repository ialah membuat proyek baru berdasarkan repository yang sudah ada.
+2. Pull Request adalah ketika Anda menginformasikan user bahwa Anda sudah memindahkan perubahan yang Anda lakukan di branch ke master repository.
+Collaborator repositori akan menerima atau menolak pull request.
+3. Merging merupakan penggabungan source code yang sudah diubah pada suatu branch ke branch lainnya.
+
+
+Keunggulan
+● Github gratis digunakan
+● proyek atau kode kita bisa diakses oleh pengguna lain, yang nantinya akan bermanfaat bagi kita untuk meningkatkan proyek kita tersebut.
+● github dapat melacak perubahan yang terjadi di changelog, tentunya hal ini kita akan mengetahui perubahan apa saja yang terjadi.
+● dengan adanya github kita bisa akses proyek orang lain yang mungkin akan membangkitkan semangat atau motivasi kita untuk mengerjakan proyek lebih bagus.
+● mampu mengintegrasikan Development IDE seperti Visual Code Studio,Eclipse,dan lainnya
+
+Kekurangan
+● Keamanan di github tidak berlaku untuk repositori pribadi
+● GitHub memerlukan koneksi internet yang stabil dan cukup cepat untuk mengakses dan menggunakan platform
+● GitHub membatasi pengguna untuk membuat repositori pribadi, sehingga pengguna harus membayar untuk menggunakan repositori pribadi dalam jumlah yang lebih besar.
+
+Perbedaan Gitlab dan Github
+Perbedaan Workflow
+● workflow pada GitHub, platform ini menekankan kepada kecepatan.
+● Pada Github-flow master branch ini bertindak sebagai development branch utama. Dengan begitu, master branch akan selalu siap untuk men-deploy.
+● workflow pada Gitlab menekankan pada aspek reliability nya.
+● Pada workflow GitLab, Anda memungkinkan untuk membuat beberapa stable branches yang berada di luar master branch. Yang artinya, workflow ini dapat memperlambat proses kinerja task untuk tim berukuran kecil.
